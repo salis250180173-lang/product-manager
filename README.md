@@ -1,6 +1,3 @@
-# product-manager
-Mini Project Pemrograman Web Pertemuan 3 - Aplikasi Management Produk (PHP, MySQL, CSS)
-
 Product Manager - Web Application (PHP & MySQL)
 Proyek ini adalah Aplikasi Manajemen Produk (CRUD) berbasis web yang dibangun menggunakan PHP Native (PDO), MySQL, dan CSS3. Aplikasi ini dibuat untuk memenuhi Tugas Akhir Pemrograman Web (Pertemuan 3).
 
