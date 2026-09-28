@@ -7,23 +7,22 @@ NIM: 250180173
 Mata Kuliah: Pemrograman Web
 
 Fitur Utama
-Create (Tambah Produk):
-Form penambahan produk baru (Nama, Kategori, Harga, Stok).
-Validasi Server-Side:
-Nama produk minimal 3 karakter.
-Harga harus berupa angka lebih besar dari 0.
-Stok tidak boleh negatif (\ge 0).
+Create (Tambah Produk): Form penambahan produk baru (Nama, Kategori, Harga, Stok).
+Validasi Server-Side: Nama produk minimal 3 karakter. Harga harus berupa angka lebih besar dari 0. Stok tidak boleh negatif (\ge 0).
 Menggunakan Pola PRG (Post-Redirect-Get) untuk mencegah pendaftaran/submit ganda saat halaman di-refresh.
+
 Read (Tampil Produk):
-Menampilkan daftar produk menggunakan layout Responsive Card Grid.
-Menampilkan pesan konfirmasi / notifikasi saat aksi berhasil.
+Menampilkan daftar produk menggunakan layout Responsive Card Grid. Menampilkan pesan konfirmasi / notifikasi saat aksi berhasil.
+
 Update (Edit Produk):
 Mengubah data produk yang sudah ada berdasarkan ID produk.
+
 Delete (Hapus Produk):
 Menghapus produk secara aman menggunakan Method POST dan Token CSRF untuk mencegah serangan Cross-Site Request Forgery.
+
 Security (Keamanan):
-Proteksi XSS (Cross-Site Scripting) menggunakan htmlspecialchars() pada semua output user.
-Prepared Statements (PDO) untuk mencegah serangan SQL Injection.
+Proteksi XSS (Cross-Site Scripting) menggunakan htmlspecialchars() pada semua output user. Prepared Statements (PDO) untuk mencegah serangan SQL Injection.
+
 Fitur Bonus (Search & Filter):
 Pencarian produk berdasarkan nama atau kategori menggunakan parameter query GET yang aman.
 
